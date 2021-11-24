@@ -1,0 +1,88 @@
+:root {
+  --main-title-color: #ffffff;
+  --main-text-color: #212121;
+  --secondary-color-of-the-text: #757575;
+  --text-accent-color: #2196f3;
+}
+
+body {
+  font-family: Roboto;
+  background-color: #ffffff *;
+  color: var(--secondary-color-of-the-text);
+}
+/*заголовок #FFFFFF*/
+/*колір основновного текста #212121 */
+/*вториний колір тексту #757575*/
+/*акцент текста #2196F3*/
+
+/*фон 1 #FFFFFF*/
+/*фон 2 #2F303A*/
+/*фон 3 #F5F4FA*/
+/*фон 4 #2F303A*/
+
+.link {
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/*site nav*/
+
+.site-nav .link {
+  color: var(--main-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--text-accent-color);
+}
+.site-nav .link.current {
+  color: var(--text-accent-color);
+}
+
+.contacts-list .link {
+  color: var(--secondary-color-of-the-text);
+}
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: var(--text-accent-color);
+}
+.contacts-list .link.current {
+  color: var(--text-accent-color);
+}
+
+/*hero*/
+.hero-title {
+  color: var(--main-title-color);
+}
+
+.button {
+  color: var(--main-title-color);
+  background-color: var(--text-accent-color);
+}
+
+.button.primary {
+  color: var(--main-title-color);
+  background-color: var(--text-accent-color);
+}
+
+.feature-list .title {
+  color: var(--main-text-color);
+}
+
+/*section*/
+.section-title {
+  color: var(--main-text-color);
+}
+.command-title {
+  color: var(--main-text-color);
+}
+/*footer*/
+.address {
+  color: var(--main-title-color);
+}
+.address-list .link:hover,
+.address-list .link:focus {
+  color: var(--main-title-color);
+}
