@@ -29,6 +29,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  font-style: normal;
 }
 .accent {
   color: var(--text-accent-color);
@@ -86,6 +87,7 @@ li {
   color: var(--main-title-color);
   background-color: var(--text-accent-color);
   cursor: pointer;
+  font-family: Roboto;
 }
 
 .button.primary {
@@ -95,7 +97,9 @@ li {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  font-family: Roboto;
 }
+
 .button.secondary {
   background-color: var(--button-color);
   color: var(--main-text-color);
@@ -103,6 +107,7 @@ li {
   font-size: 16px;
   line-height: 1.44;
   cursor: pointer;
+  font-family: Roboto;
 }
 
 .feature-list .title {
@@ -159,6 +164,7 @@ li {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 .address-list .forces {
   color: var(--text-white-transparent);
@@ -166,6 +172,7 @@ li {
   font-size: 14px;
   line-height: 1.71px;
   text-decoration: none;
+  font-style: normal;
 }
 
 .address-list .forces:focus {
@@ -174,6 +181,7 @@ li {
   font-size: 14px;
   line-height: 1.71px;
   text-decoration: none;
+  font-style: normal;
 }
 .studio {
   color: var(--main-title-color);
